@@ -22,5 +22,5 @@ Welcome to <a href="https://konradpieczynski.github.io">konradpieczynski.github.
   
 This is portfolio site to present myself.  
 From youngest age I wished to become pilot or programmer.  
-Mine life choices ended realising mine second wish.  
+Mine life choices ended realising second wish.
 Most of mine profesional work consisted of programming PLC.
