@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: 'List of mine projects:'
+description: 'List of projects that i contributed:'
 nav: true
 nav_order: 2
 display_categories: [work, fun]
