@@ -8,4 +8,4 @@ category: fun
 
 ### Live web crud application 750h/month:  
 
-https://konradpieczynski-tasks.github.io/
+[https://konradpieczynski-tasks.github.io/](https://konradpieczynski-tasks.github.io/)
