@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var apiRoot = 'http://tasks.konradpieczynski.repl.co/v1/tasks';
+    var apiRoot = 'https://tasks-228t.onrender.com/v1/tasks';
     var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     var tasksContainer = $('[data-tasks-container]');
   

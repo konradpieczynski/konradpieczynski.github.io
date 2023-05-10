@@ -6,3 +6,6 @@ importance: 14
 category: fun
 ---
 
+### Live web crud application 750h/month:  
+
+https://konradpieczynski-tasks.github.io/
