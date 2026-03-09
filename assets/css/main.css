@@ -1,0 +1,114 @@
+/* ===================================================================
+ * Zmienne CSS
+ * ------------------------------------------------------------------- */
+:root {
+    --color-primary: #0077b6;
+    --color-secondary: #023e8a;
+    --color-accent: #03045e;
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-bg: #fff;
+    --color-bg-alt: #f8f9fa;
+    --color-border: #e9ecef;
+    --font-primary: 'Open Sans', sans-serif;
+    --font-heading: 'Lora', serif;
+    --transition: all 0.3s ease;
+}
+
+/* ===================================================================
+ * Podstawowe style
+ * ------------------------------------------------------------------- */
+html, body {
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: var(--color-bg);
+}
+
+body.menu-is-open {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+}
+
+h1 { font-size: 3.6rem; }
+h2 { font-size: 2.8rem; }
+h3 { font-size: 2.2rem; }
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    padding: 1.5rem 0;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn--stroke {
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn--stroke:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.btn--download {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+}
+
+.btn--download:hover {
+    background: var(--color-secondary);
+}
+
+/* Wspólne style dla nagłówków sekcji */
+.section-heading {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4rem;
+}
+
+.section-heading:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--color-primary);
+}
